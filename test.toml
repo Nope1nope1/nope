@@ -3,6 +3,17 @@ description = "Delete stuff"
 maintainer = "nope1"
 
 [[block]]
+friendly_name = "The Sunset Bar - DVC"
+world_id = "wrld_44f4a344-4489-4e11-a54a-86971f16f0e6"
+game_objects = [
+    { name = "ButtonVRCGroups", parent = { name = "Buttons" } }, # Group Icon button opens Store 
+    { name = "Security Barrier", parent = { name = "Barriers" } }
+	{ name = "Barriers",} }
+	{ name = "KillFrenzy",} }
+	{ name = "Logging", parent = { name = "Udon Scripts" } }
+	{ name = "Warp To Jail", parent = { name = "Interactivity" } }
+	{ name = "RineyTech Downloaders", parent = { name = "Udon Scripts" } }
+	]
 
 [[block]]
 friendly_name = "VirtualFurence Furry Convention Hotel Estrel Berlin"
@@ -10,13 +21,6 @@ world_id = "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b"
 # CEBoard is toggled dynamically based on CE support, so let's disable everything under it and think of a better system later
 game_objects = [{ name = "Canvas", parent = { name = "CEBoard" } }]
 
-[[block]]
-friendly_name = "Idle Home"
-world_id = "wrld_c16e4dee-d149-4116-adbc-16bc30b664b0"
-game_objects = [
-    { name = "ButtonVRCGroups", parent = { name = "Buttons" } }, # Group Icon button opens Store 
-    { name = "Title (3)", parent = { name = "PatreonCanvas" } }
-]
 
 [[block]]
 friendly_name = "Furry Hideout"
