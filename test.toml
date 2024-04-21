@@ -1,0 +1,26 @@
+title = "test"
+description = "Delete stuff"
+maintainer = "nope1"
+
+[[block]]
+
+[[block]]
+friendly_name = "VirtualFurence Furry Convention Hotel Estrel Berlin"
+world_id = "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b"
+# CEBoard is toggled dynamically based on CE support, so let's disable everything under it and think of a better system later
+game_objects = [{ name = "Canvas", parent = { name = "CEBoard" } }]
+
+[[block]]
+friendly_name = "Idle Home"
+world_id = "wrld_c16e4dee-d149-4116-adbc-16bc30b664b0"
+game_objects = [
+    { name = "ButtonVRCGroups", parent = { name = "Buttons" } }, # Group Icon button opens Store 
+    { name = "Title (3)", parent = { name = "PatreonCanvas" } }
+]
+
+[[block]]
+friendly_name = "Furry Hideout"
+world_id = "wrld_4b341546-65ff-4607-9d38-5b7f8f405132"
+game_objects = [
+    { name = "Canvas (3)", position = { x = -38.71497, y = 43.23, z = -10.41 }}
+]
