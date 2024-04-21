@@ -10,9 +10,22 @@ game_objects = [
     { name = "Security Barrier", parent = { name = "Barriers" } },
 	{ name = "Barriers" },
 	{ name = "KillFrenzy" },
+	{ name = "Trampoline", parent = { name = "KillFrenzy" },
+	{ name = "TrampolineScript", parent = { name = "Trampoline" },
+	{ name = "WallColliders", parent = { name = "Trampoline" },
+	{ name = "TrampolineScript", parent = { name = "WallColliders" },
+	{ name = "WallCollider", parent = { name = "WallColliders" },
+	{ name = "WallCollider (1)", parent = { name = "WallColliders" },
+	{ name = "WallCollider (2)", parent = { name = "WallColliders" },
+	{ name = "WallCollider (3)", parent = { name = "WallColliders" },
+	{ name = "WallCollider (4)", parent = { name = "WallColliders" },
+	{ name = "WallCollider (5)", parent = { name = "WallColliders" },
+	{ name = "WallCollider (6)", parent = { name = "WallColliders" },
+	{ name = "WallCollider (7)", parent = { name = "WallColliders" },
 	{ name = "Logging", parent = { name = "Udon Scripts"} },
 	{ name = "Warp To Jail", parent = { name = "Interactivity"} },
 	{ name = "RineyTech Downloaders", parent = { name = "Udon Scripts"} },
+	Trampoline
 	]
 
 [[block]]
