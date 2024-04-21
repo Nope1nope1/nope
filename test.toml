@@ -7,12 +7,12 @@ friendly_name = "The Sunset Bar - DVC"
 world_id = "wrld_44f4a344-4489-4e11-a54a-86971f16f0e6"
 game_objects = [
     { name = "ButtonVRCGroups", parent = { name = "Buttons" } }, # Group Icon button opens Store 
-    { name = "Security Barrier", parent = { name = "Barriers" } }
-	{ name = "Barriers",} }
-	{ name = "KillFrenzy",} }
-	{ name = "Logging", parent = { name = "Udon Scripts" } }
-	{ name = "Warp To Jail", parent = { name = "Interactivity" } }
-	{ name = "RineyTech Downloaders", parent = { name = "Udon Scripts" } }
+    { name = "Security Barrier", parent = { name = "Barriers" } },
+	{ name = "Barriers" },
+	{ name = "KillFrenzy" },
+	{ name = "Logging", parent = { name = "Udon Scripts"} },
+	{ name = "Warp To Jail", parent = { name = "Interactivity"} },
+	{ name = "RineyTech Downloaders", parent = { name = "Udon Scripts"} },
 	]
 
 [[block]]
