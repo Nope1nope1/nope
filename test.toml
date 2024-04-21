@@ -6,7 +6,7 @@ maintainer = "nope1"
 friendly_name = "The Sunset Bar - DVC"
 world_id = "wrld_44f4a344-4489-4e11-a54a-86971f16f0e6"
 game_objects = [
-    { name = "ButtonVRCGroups", parent = { name = "Buttons" } }, # Group Icon button opens Store 
+    { name = "ButtonVRCGroups", parent = { name = "Buttons" } }, 
     { name = "Security Barrier", parent = { name = "Barriers" } },
 	{ name = "Barriers" },
 	{ name = "KillFrenzy" },
@@ -31,7 +31,8 @@ game_objects = [
 friendly_name = "VirtualFurence Furry Convention Hotel Estrel Berlin"
 world_id = "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b"
 # CEBoard is toggled dynamically based on CE support, so let's disable everything under it and think of a better system later
-game_objects = [{ name = "Canvas", parent = { name = "CEBoard" } }]
+game_objects = [{ name = "Canvas", parent = { name = "CEBoard" } },
+]
 
 
 [[block]]
@@ -45,5 +46,5 @@ game_objects = [
 friendly_name = "It's a big room"
 world_id = "wrld_0314ed62-301e-4798-94ba-9c431d6abd51"
 game_objects = [
-	{ name = "Pool Parlor Table"}],
-]
+	{ name = "Pool Parlor Table"}
+	]
