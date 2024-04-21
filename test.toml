@@ -45,5 +45,5 @@ game_objects = [
 friendly_name = "It's a big room"
 world_id = "wrld_0314ed62-301e-4798-94ba-9c431d6abd51"
 game_objects = [
-	{ name = "Pool Parlor Table"}],
+	{ name = "Pool Parlor Table"],
 ]
